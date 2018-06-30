@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dp"
+        android:stretchMode="none"
+        android:numColumns="7"
+        android:layout_weight="0"
+        android:background="@color/blue"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="right">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New"
+                style="@android:style/Widget.Button.Small"
+                android:id="@+id/button"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

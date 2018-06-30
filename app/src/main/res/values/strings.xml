@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hanson and Bella Play Connect 4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_table2">Table2Activity</string>
+</resources>
